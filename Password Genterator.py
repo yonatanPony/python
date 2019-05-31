@@ -99,7 +99,7 @@ def main():
     level = GetLevel()
     password = WhichLevel(level)
     password = ''.join(str(x) for x in password)
-    print("Your password is: <> ", password, " <>")
+    print("Your password is:\n<> ", password, " <>")
 
 
 if __name__ == '__main__':
